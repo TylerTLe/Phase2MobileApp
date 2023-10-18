@@ -6,7 +6,7 @@
 - *The context for this decision is the development of a calorie-tracking app that needs to manage and store various types of data, including user account information, order history, and restaurant menu data. The choice of a database storage system is crucial to efficiently handle these different data types.*
   
 ### Decision
-*We have decided to use a combination of relational databases and NoSQL databases for our weight tracking app:*
+*We have decided to use a combination of relational databases and NoSQL databases for our calorie-tracking app:*
 - ***Relational Databases:***
   - *We will utilize relational databases such as PostgreSQL to manage structured data, specifically user account information and order history. These databases provide a structured and organized way to store data with defined schemas, ensuring data integrity and consistency.*
     
