@@ -1,14 +1,14 @@
 # Navigation Decision Document
 
-## Decision
+### Decision
 
 We have decided to implement a bottom navigation bar for our web app to facilitate easy navigation across the platform.
 
-## Status
+### Status
 
 This decision has been accepted by the team.
 
-## Assumptions
+### Assumptions
 
 - **Simplicity for New Users**: Our primary goal is to make the app user-friendly, especially for new users who may not be familiar with the platform.
 
@@ -16,13 +16,13 @@ This decision has been accepted by the team.
 
 - **Limited Icons and Links**: We anticipate that only a few icons and links are required for app navigation.
 
-## Constraints
+### Constraints
 
 - **Offline Usage**: All data must be stored locally on the user's device to enable offline functionality. This requirement may influence data storage and synchronization approaches.
 
 - **Quick Navigation**: It's essential that users can access functions and features swiftly. 
 
-## Navigation Options
+### Navigation Options
 
 We have considered various navigation options:
 
@@ -36,7 +36,7 @@ We have considered various navigation options:
 
 5. **Search Bar**: While useful for finding specific content, it might not serve as the primary method for navigating the app.
 
-## Recommendation
+### Recommendation
 
 Given our objective of creating a simple, flexible app, we recommend using a bottom navigation bar. It's a user-friendly choice for mobile apps and aligns with our assumptions of simplicity and quick navigation. Careful design of the navigation items and hierarchy is essential to ensure key features are easily accessible.
 
