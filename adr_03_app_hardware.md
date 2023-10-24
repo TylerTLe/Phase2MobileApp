@@ -15,6 +15,6 @@
 
 ### Attribution
 - **Team Member A**: Will optimize the touchscreen interface ensuring the UI is responsive and intuitive.
-- **Team Member C**: Will handle the notification system, ensuring it’s user-friendly and not intrusive.
+- **Team Member B**: Will handle the notification system, ensuring it’s user-friendly and not intrusive.
 
 These decisions, made with the app’s focus and user experience in mind, are documented and will guide the development process ensuring alignment with the project’s goals and timeline.
