@@ -6,7 +6,7 @@ We have decided to implement a bottom navigation bar for our web app to facilita
 
 ### Status
 
-This decision has been accepted by the team.
+Accepted, we will promarily use a navbar at the bottom for navigations.
 
 ### Assumptions
 
