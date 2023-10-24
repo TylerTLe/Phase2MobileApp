@@ -3,16 +3,15 @@
 - *Decision Made*
   
 ### Context
-- *The context for this decision is the development of a calorie-tracking app that needs to manage and store various types of data, including user account information, order history, and restaurant menu data. The choice of a database storage system is crucial to efficiently handle these different data types.*
+- *The context for this decision is the development of a calorie-tracking app that needs to manage and store various types of data, including user account information, meal information and user stats. The choice of a database storage system is crucial to efficiently handle these different data types.*
   
 ### Decision
-*We have decided to use a combination of relational databases and NoSQL databases for our calorie-tracking app:*
-- ***Relational Databases:***
-  - *We will utilize relational databases such as PostgreSQL to manage structured data, specifically user account information and order history. These databases provide a structured and organized way to store data with defined schemas, ensuring data integrity and consistency.*
-    
+*We have decided to use a NoSQL databases for our calorie-tracking app:*    
 - ***NoSQL Databases:***
-  - *For semi-structured data like restaurant menu data, which may vary between restaurants, we will employ NoSQL databases like MongoDB.NoSQL databases are more flexible and schema-less, allowing us to efficiently store and retrieve variable data structures.*
-    
+  - *NoSQL databases like MongoDB or Cassandra offer flexible schema designs. In a calorie tracking app, user-generated data can vary widely. Users may have different preferences, and new data fields could be introduced over time. NoSQL databases allow you to store data without a fixed schema, making it easier to adapt to changes and accommodate a variety of data formats.*
+  - *Calorie tracking apps can experience variable workloads, especially with changing user activity patterns and seasons. NoSQL databases are designed to be horizontally scalable, allowing you to add more servers or nodes to handle increased data volume and traffic. This scalability is crucial for maintaining app performance during peak times.*
+  - *NoSQL databases are optimized for specific use cases, including fast read and write operations. In a calorie tracking app, quick access to user data and the ability to record updates or new entries are essential. NoSQL databases can efficiently handle these tasks, providing low-latency response times.*
+  - *NoSQL databases can efficiently handle real-time data and support features like notifications and real-time updates. Users of calorie tracking apps often want to see immediate updates in their daily intake and progress, which NoSQL databases can facilitate.*
 ### Consequences
 *The consequences of this decision are as follows:*
 - ***Efficient Data Management:***
