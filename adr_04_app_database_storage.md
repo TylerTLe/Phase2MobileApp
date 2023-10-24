@@ -21,5 +21,5 @@
   - *To ensure data synchronization between the app and restaurant inventory systems, we will need to implement robust APIs and data transformation processes. This complexity arises from the combination of structured and semi-structured data, as well as the need to interact with external systems.*
 - ***Development and Maintenance:***
   - *Utilizing both relational and NoSQL databases may increase the development effort, as developers will need to be familiar with both types of databases. Additionally, ongoing maintenance and data migration between these two types of databases may present challenges.*
-  - ***Lack of Transactions:***
-    - *NoSQL databases typically don't support transactions in the same way relational databases do. In a calorie tracking app, you may need to perform multiple actions as part of a single logical operation (e.g., deducting calories from a user's daily allowance when they add a meal and update their progress). Handling complex transactions may be more challenging with NoSQL databases.*
+- ***Lack of Transactions:***
+  - *NoSQL databases typically don't support transactions in the same way relational databases do. In a calorie tracking app, you may need to perform multiple actions as part of a single logical operation (e.g., deducting calories from a user's daily allowance when they add a meal and update their progress). Handling complex transactions may be more challenging with NoSQL databases.*
