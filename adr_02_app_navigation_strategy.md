@@ -1,12 +1,12 @@
 # Navigation Decision Document
 
+### Status
+
+Accepted by team
+
 ### Decision
 
 We have decided to implement a bottom navigation bar for our web app to facilitate easy navigation across the platform.
-
-### Status
-
-Accepted, we will promarily use a navbar at the bottom for navigations.
 
 ### Assumptions
 
