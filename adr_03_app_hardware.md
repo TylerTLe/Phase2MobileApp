@@ -5,7 +5,7 @@
 ### Context
 - *Our team is developing a calorie-tracking app, where user interaction with hardware components should be intuitive and efficient to support the user's journey of logging and tracking their daily calorie intake. The app's design and functionality hinge on the careful selection and integration of specific hardware features.*
 ### Decision
-- *Considering the app's focus, the hardware components chosen are:
+- Considering the app's focus, the hardware components chosen are:
 
 1. **Touchscreen Interface**: For easy data entry and navigation.
 2. **Notifications (via Speaker)**: Audio cues for reminders to log meals or updates on daily calorie counts.*
