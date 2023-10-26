@@ -1,5 +1,5 @@
-# Navigation Decision Document
 
+# Navigation strategy
 ### Status
 
 - *Decision Made*
